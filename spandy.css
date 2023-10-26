@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Yuji+Hentaigana+Akari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#con{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(90deg,);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    overflow-X: hidden;
+}
+
+img{
+    position: absolute;
+}
+#img1{
+    width: 100%;
+    top: 0%;
+}
+#img2{
+    width: 100%;
+    height: 80%;
+    top: 10%;
+    z-index: 3;
+}
+
+#con1{
+    width: 95%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.865);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    z-index: 10;
+}
+#con11{
+    width: 38%;
+    height: 96%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h2{
+    font-family: 'Yuji Hentaigana Akari', cursive;
+    font-size: 22px;
+    color: bisque;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+    color: bisque;
+}
+#con12{
+    width: 58%;
+    height: 90%;
+    background-color: red;
+    background-image: url(./assets/spandu/WhatsApp\ Image\ 2023-10-26\ at\ 00.15.56.jpeg);
+    background-size: 100% 100%;
+    border-radius: 25px;
+}
+#con2{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+#con21{
+    width: 30%;
+    height: 30%;
+    background-color: rgb(11, 10, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    position: relative;
+    z-index: 20;
+    /* background-color: red; */
+}
+#welcome{
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+    color: aliceblue;
+    letter-spacing: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+p{
+    color: white;
+    font-size: 20px
+}
+#p1{
+    color: red;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+}
+i{
+    /* width: 190%; */
+    font-size: 90px;
+    /* position: absolute; */
+    color:blueviolet;
+    z-index: 1000;
+}
+/* #a{
+    top: 78.5%;
+    left: 24%;
+}
+#b{
+    top: 78.5%;
+    left: 66%;
+} */
